@@ -27,7 +27,7 @@ SECRET_KEY = prod_config.SECRET_KEY
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = prod_config.DEBUG
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = prod_config.ALLOWED_HOSTS
 
 
 # Application definition
